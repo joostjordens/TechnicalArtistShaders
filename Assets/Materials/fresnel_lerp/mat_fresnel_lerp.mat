@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mat_fresnel_lerp
+  m_Name: Mat_Fresnel_Lerp
   m_Shader: {fileID: -6465566751694194690, guid: 623ebc3cc618ce24ba60d90d1c9d1335,
     type: 3}
   m_ValidKeywords: []

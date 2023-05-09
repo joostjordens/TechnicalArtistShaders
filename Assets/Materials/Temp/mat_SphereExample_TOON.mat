@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mat_example_TOON
+  m_Name: mat_SphereExample_TOON
   m_Shader: {fileID: -6465566751694194690, guid: 4331353af54a0d64e9e9848d96b5b272,
     type: 3}
   m_ValidKeywords: []
