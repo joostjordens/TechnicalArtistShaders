@@ -112,8 +112,8 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _IntersectOffset: -0.82
-    - _IntersectStrength: 0.37
+    - _IntersectOffset: 0.22
+    - _IntersectStrength: 0.67
     - _Metallic: 0
     - _NoiseSpeed: 5
     - _OcclusionStrength: 1

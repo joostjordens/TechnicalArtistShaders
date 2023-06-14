@@ -2877,7 +2877,7 @@
         "bump map"
     ],
     "m_Precision": 0,
-    "m_PreviewExpanded": false,
+    "m_PreviewExpanded": true,
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
@@ -3341,10 +3341,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -244.99986267089845,
-            "y": -36.99999237060547,
-            "width": 104.99996948242188,
-            "height": 34.0000114440918
+            "x": -245.0,
+            "y": -46.00000762939453,
+            "width": 105.0,
+            "height": 34.000003814697269
         }
     },
     "m_Slots": [
@@ -3773,7 +3773,7 @@
         "worley noise"
     ],
     "m_Precision": 0,
-    "m_PreviewExpanded": false,
+    "m_PreviewExpanded": true,
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []

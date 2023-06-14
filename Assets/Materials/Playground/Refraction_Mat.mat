@@ -85,7 +85,7 @@ Material:
     m_Floats:
     - _AlphaClip: 0
     - _Blend: 0
-    - _BulgeSpeed: 1.2
+    - _BulgeSpeed: 2
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -105,9 +105,9 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _RefractScale: 2.04
-    - _RefractSpeed: 2
-    - _Refraction: 0.85
+    - _RefractScale: 2.32
+    - _RefractSpeed: 2.15
+    - _Refraction: 0.6
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -117,7 +117,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BulgeRange: {r: -0.05, g: 0.05, b: 0, a: 0}
+    - _BulgeRange: {r: -0.05, g: 0.02, b: 0, a: 0}
     - _Color: {r: 1.8980392, g: 0.6937926, b: 0.2484345, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColor: {r: 0.6431373, g: 1.4431373, b: 0.95686275, a: 0}
