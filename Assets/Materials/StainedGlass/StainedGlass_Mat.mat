@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 5
+  version: 9
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -23,6 +23,8 @@ Material:
   m_Name: StainedGlass_Mat
   m_Shader: {fileID: -6465566751694194690, guid: 1fe55dcdd6912d349bbb572f473ad797,
     type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -30,7 +32,9 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -86,7 +90,15 @@ Material:
         m_Texture: {fileID: 2800000, guid: 109222b5e6fc4664fbd64842615fb29e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_49d0c7a6913746809202ee38a10f674d_Out_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 109222b5e6fc4664fbd64842615fb29e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_68af9477e14c4609a236506866fa5fa9_Out_0:
+        m_Texture: {fileID: 2800000, guid: 45b757cb619e6c54586dc97afef98fe5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_68af9477e14c4609a236506866fa5fa9_Out_0_Texture2D:
         m_Texture: {fileID: 2800000, guid: 45b757cb619e6c54586dc97afef98fe5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -98,11 +110,23 @@ Material:
         m_Texture: {fileID: 2800000, guid: b315fcfbd09a3b44a9ff2aad6692adea, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_b93c3ef8d62240b3b62c2231ab7c057f_Out_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: b315fcfbd09a3b44a9ff2aad6692adea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_d4960306a5d94d5cab0d02e50874dde5_Out_0:
         m_Texture: {fileID: 2800000, guid: 466e0f4b2eea0434eb03251376db71eb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_d4960306a5d94d5cab0d02e50874dde5_Out_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 466e0f4b2eea0434eb03251376db71eb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_f6ee3a4a30954bdc8cd0a5db91919b5c_Out_0:
+        m_Texture: {fileID: 2800000, guid: 166c2912895043b4a9ba686f59309745, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_f6ee3a4a30954bdc8cd0a5db91919b5c_Out_0_Texture2D:
         m_Texture: {fileID: 2800000, guid: 166c2912895043b4a9ba686f59309745, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -159,3 +183,4 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
